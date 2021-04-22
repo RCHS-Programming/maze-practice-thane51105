@@ -32,9 +32,14 @@ public class MazeWorld extends World
             addObject( new Wall("edge2.png"), 12, 15 + 50*i);
         }
         
-                for(int i = 0; i < 16; i++)
+        for(int i = 0; i < 16; i++)
         {
             addObject( new Wall("edge2.png"), 787, 15 + 50*i);
+        }
+        
+        for(int i = 0; i < 7; i++)
+        {
+            addObject( new Wall("edge.png"), 25 + 50*i, 150);
         }
     }
 }
